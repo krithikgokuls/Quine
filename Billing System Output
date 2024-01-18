@@ -1,0 +1,130 @@
+
+ ----jGRASP exec: java Main
+
+				WELCOME TO DEPARTMENTAL STORE
+			1.Owner
+			2.Cashier
+			3.Exit
+Enter Your Option:1
+Enter Owner Name:Krithik
+Enter Password:2222
+			1.AddCashier
+			2.ViewCashier
+			3.removeCashier
+			4.logout
+Enter Your Choice:1
+Enter CashierName:Gokul
+Enter password:123
+....... Cashier added Succesfully.......
+			1.AddCashier
+			2.ViewCashier
+			3.removeCashier
+			4.logout
+Enter Your Choice:1
+Enter CashierName:Rakhul
+Enter password:456
+....... Cashier added Succesfully.......
+			1.AddCashier
+			2.ViewCashier
+			3.removeCashier
+			4.logout
+Enter Your Choice:2
+ CashierName     Password 
+|-----------     --------|
+|Gokul           123     |
+|                        |
+|Rakhul          456     |
+|                        |
+|========================|
+			1.AddCashier
+			2.ViewCashier
+			3.removeCashier
+			4.logout
+Enter Your Choice:4
+			1.Owner
+			2.Cashier
+			3.Exit
+Enter Your Option:2
+Enter the Name:Gokul
+Enter the Password:123
+Login Succesfull.......
+			1.AddStock
+			2.ViewStock
+			3.removeStock
+			4.newBill
+			5.viewBill
+			6.Logout
+Enter a Choice:1
+How many stock you Added:2
+Enter Your Stock Name:goodday
+Stock Count:10
+Enter costprice of Single Stock:10
+Enter tax of Single Stock:5
+Enter Your Stock Name:milk
+Stock Count:10
+Enter costprice of Single Stock:25
+Enter tax of Single Stock:5
+			1.AddStock
+			2.ViewStock
+			3.removeStock
+			4.newBill
+			5.viewBill
+			6.Logout
+Enter a Choice:2
+===================================================
+Stock Name   stock count   CP of Single unit   Tax 
+----------   -----------   -----------------   ----
+goodday      20.000000     10.000000           5.00
+milk         10.000000     25.000000           5.00
+===================================================
+			1.AddStock
+			2.ViewStock
+			3.removeStock
+			4.newBill
+			5.viewBill
+			6.Logout
+Enter a Choice:4
+Enter StockName:milk
+how many you want(count):2
+Do yo want yes/no:no
+			1.AddStock
+			2.ViewStock
+			3.removeStock
+			4.newBill
+			5.viewBill
+			6.Logout
+Enter a Choice:4
+Enter StockName:goodday
+how many you want(count):5
+Do yo want yes/no:no
+			1.AddStock
+			2.ViewStock
+			3.removeStock
+			4.newBill
+			5.viewBill
+			6.Logout
+Enter a Choice:5
+StockName     stockcount     singleprice        tax          total
+milk          2.000000       25.000000       5.000000     52.500000
+
+======================================================================
+                                                  THETOTAL:52.5
+======================================================================
+goodday       5.000000       10.000000       5.000000     52.500000
+
+======================================================================
+                                                  THETOTAL:52.5
+======================================================================
+			1.AddStock
+			2.ViewStock
+			3.removeStock
+			4.newBill
+			5.viewBill
+			6.Logout
+Enter a Choice:6
+			1.Owner
+			2.Cashier
+			3.Exit
+Enter Your Option:3
+
+ ----jGRASP: operation complete.
